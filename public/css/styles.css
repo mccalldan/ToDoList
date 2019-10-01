@@ -1,33 +1,57 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  background-image: url(https://www.lobowing.org/wp-content/uploads/2016/09/bulletin-board-background.jpg);
   min-height: 1000px;
   font-family: 'helvetica neue';
+}
+
+header {
+  background-color: black;
+  height: 60px
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
 }
 
 h1 {
   color: #fff;
   padding: 10px;
+  margin-bottom: 0px;
+  font-family: 'Biryani', sans-serif;
+  border-style: solid;
+  border-width: 4px;
 }
+
+
 
 .box {
   max-width: 400px;
-  margin: 50px auto;
+  margin-left: auto;
+  margin-right: auto;
   background: white;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  font-family: 'Permanent Marker', cursive;
+
 }
 
 #heading {
-  background-color: #A683E3;
+  margin-top: 60px;
+  background-color: black;
   text-align: center;
+  margin-bottom: 0px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#list {
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .item {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid lightblue;
 }
 
 .item:last-child {
@@ -36,7 +60,7 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: black;
 }
 
 input[type="checkbox"] {
@@ -49,22 +73,25 @@ p {
   font-size: 20px;
   font-weight: 200;
   color: #00204a;
+  border-left: 2px solid 	#F08080;
 }
 
 form.item {
-  text-align: center;
-  margin-left: 20px;
+  text-align: left;
+  margin-left: 53.5px;
+  width:290px;
+  border-left: 2px solid #F08080;
+  font-family: 'Permanent Marker', cursive;
 }
 
 button {
-  min-height: 50px;
-  width: 50px;
+  min-height: 40px;
+  width: 40px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: #F08080;
   color: #fff;
   font-size: 30px;
-  padding-bottom: 6px;
   border-width: 0;
 }
 
@@ -77,11 +104,12 @@ input[type="text"] {
   font-size: 20px;
   font-weight: 200;
   width: 313px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #A683E3;
+  box-shadow: inset 0 -3px 0 0 lightblue;
 }
 
 ::placeholder {

@@ -1,15 +1,17 @@
 html {
   background-color: #E4E9FD;
-  background-image: url(https://www.lobowing.org/wp-content/uploads/2016/09/bulletin-board-background.jpg);
+  background-image: url(/images/bulletin.jpg);
+  background-size: stretch;
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
 
 header {
   background-color: black;
-  height: 60px
+  height: 60px;
   font-family: 'Alfa Slab One', cursive;
   color: white;
+  border-radius: 2%;
 }
 
 h1 {
@@ -17,8 +19,7 @@ h1 {
   padding: 10px;
   margin-bottom: 0px;
   font-family: 'Biryani', sans-serif;
-  border-style: solid;
-  border-width: 4px;
+
 }
 
 
@@ -121,4 +122,16 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+#trademark {
+  color: white;
+  text-emphasis: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+
+  }
+
 }

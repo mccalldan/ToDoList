@@ -1,17 +1,9 @@
-html {
+body {
   background-color: #E4E9FD;
   background-image: url(/images/bulletin.jpg);
   background-size: stretch;
   min-height: 1000px;
   font-family: 'helvetica neue';
-}
-
-header {
-  background-color: black;
-  height: 60px;
-  font-family: 'Alfa Slab One', cursive;
-  color: white;
-  border-radius: 2%;
 }
 
 h1 {
@@ -22,7 +14,10 @@ h1 {
 
 }
 
-
+.title-card {
+  background-color: black;
+  text-align: center;
+}
 
 .box {
   max-width: 400px;
@@ -61,7 +56,7 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: black;
+  text-decoration-color: white;
 }
 
 input[type="checkbox"] {
@@ -69,12 +64,11 @@ input[type="checkbox"] {
 }
 
 p {
-  margin: 0;
   padding: 20px;
   font-size: 20px;
   font-weight: 200;
   color: #00204a;
-  border-left: 2px solid 	#F08080;
+  margin-bottom: 0px;
 }
 
 form.item {
@@ -125,7 +119,7 @@ footer {
 }
 
 #trademark {
-  color: white;
+  color: black;
   text-emphasis: white;
 }
 
